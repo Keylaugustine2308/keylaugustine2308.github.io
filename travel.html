@@ -22,7 +22,13 @@
     <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
 
+     <!-- Bootstrap CSS -->
+     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
 
+     <!--JS-->
+         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
+         <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js" integrity="sha384-q2kxQ16AaE6UbzuKqyBE9/u/KzioAlnx2maXQHiDX9d4/zp8Ok3f+M7DPm+Ib6IU" crossorigin="anonymous"></script>
+         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.min.js" integrity="sha384-pQQkAEnwaBkjpqZ8RU1fF1AKtTcHJwFl3pblpTlHXybJjHpMYo79HY3hIi4NKxyj" crossorigin="anonymous"></script>
     
     <title>Happy English Club</title>
 
@@ -104,16 +110,26 @@
         }
 
         #square {
-            width: 100%;
+            width: 50%;
+            height: 20px;
             color: #999b84;
         }
+        .carousel {
+              width : 50%;
+              margin: auto;
         } 
+        .carousel-item {
+          width: 80%;
+          margin-left: auto;
+          padding-left:20% ;
+        }
+        }
     </style>
   
 
 </head>
 
-    <br> 
+    <br>
 <!--------------------------------------------navbar--------------------------------------------------------------------------> 
     <nav class="navbar navbar-expand-lg navbar-light bg-light" >
         <div class="container-fluid">
@@ -135,7 +151,7 @@
                 </a>
                 <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
                   <li><a class="dropdown-item" href="hobbies.html">Hobbies</a></li>
-                  <li><a class="dropdown-item" href="tarvel.html">Travel</a></li>
+                  <li><a class="dropdown-item" href="travel.html">Travel</a></li>
                   <li><a class="dropdown-item" href="#"></a></li>
                   
                 </ul>
@@ -155,17 +171,74 @@
      <!-- Stack the columns on mobile by making one full-width and the other half-width -->
      
 
-            <br> <br> <br> <br>
-        <div>
-            <h2 style="color:#ffd66b; text-align:center"> hi all i'm sorry for the inconvenience, but I'm still working on it</h2>
-        </div> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br>
 
-        </div>
-        <div>
-            <square id="square">
-                <p id="quotes">"Better an <i> oops </i> than a <i> what if</i>"</p>
-            </square>
-        </div>
+
+<!--------------------------------------------------------images--------------------------------------------->
+<br> <br>
+<div>
+    <h2 style="text-align: center; color: #ffd66b;">  SOME PLACES I'VE BEEN TO</h2> <br> 
+</div>
+<div id="carouselExampleFade" class="carousel slide carousel-fade" data-bs-ride="carousel" width="20px" class="carousel">
+    
+
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="travel (1).jpg" class="d-block w-100" alt="KEGIATAN 0">
+  </div>
+
+    <div class="carousel-item">
+      <img src="travel (10).jpg" class="d-block w-100" alt="KEGIATAN 2">
+    </div>
+
+    
+    <div class="carousel-item">
+      <img src="travel (4).jpg" class="d-block w-100" alt="KEGIATAN 4">
+    </div>
+
+    <div class="carousel-item">
+      <img src="travel (5).jpg" class="d-block w-100" alt="KEGIATAN 5">
+    </div>
+
+    <div class="carousel-item">
+      <img src="travel (6).jpg" class="d-block w-100" alt="KEGIATAN 6">
+    </div>
+
+    <div class="carousel-item">
+      <img src="travel (7).jpg" class="d-block w-100" alt="KEGIATAN 7">
+    </div>
+
+    <div class="carousel-item">
+      <img src="travel (8).jpg" class="d-block w-100" alt="KEGIATAN 8">
+    </div>
+
+    <div class="carousel-item">
+      <img src="travel (9).jpg" class="d-block w-100" alt="KEGIATAN 9">
+    </div>
+
+    <div class="carousel-item">
+      <img src="travel (2).jpg" class="d-block w-100" alt="KEGIATAN 7">
+    </div>
+
+    
+
+  </div>
+  <a class="carousel-control-prev" href="#carouselExampleFade" role="button" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </a>
+  <a class="carousel-control-next" href="#carouselExampleFade" role="button" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </a>
+</div>
+
+
+
+    <div> <br>  <br> <br> <br> <br> <br> 
+        <square id="square">
+          <p id="quotes">"Better an <i> oops </i> than a <i> what if</i>"</p>
+        </square>
+    </div>
 
 
 
